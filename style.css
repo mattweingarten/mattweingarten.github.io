@@ -1,5 +1,9 @@
 .main{font-size: x-large;}
 
+body{
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +37,6 @@ li {
 }
 
 
-/* NAVBAR STYLING STARTS */
 .navbar {
   display: flex;
   align-items: center;
@@ -50,12 +53,10 @@ li {
   color: #fff;
 }
 
-/* LOGO */
 .logo {
   font-size: 22px;
 }
 
-/* NAVBAR MENU */
 .menu {
   display: flex;
   gap: 0.5em;
@@ -68,23 +69,9 @@ li {
   transition: 0.3s ease;
 }
 
-/* #headshot-container{
-  display: flex;
-  align-items: left;
-  flex-direction: column;
-  
 
-} */
-/* 
-.menu li {
-  padding: 1px 1px;
-} */
 
 .headshot {
-  /* padding: 10px 10px;  */
-  /* padding-top: 100px; */
-  /* object-fit: cover; */
-  /* padding-left: 20px; */
   padding-right: 20px;
   margin-bottom: 25px;
   width:250px;height:auto;
@@ -114,7 +101,6 @@ h2 {
 }
 
 .column2 {
-  /* margin-left: 5%; */
   margin-right: 25%;
   width: 40%;
 }
@@ -123,30 +109,8 @@ h2 {
   font-size: 18px;
 }
 
-/* .column1 {
-  align-content: center;
-  width:275px;
-  padding-top: 50px;
-  margin-left: 20%;
-  /* -left: 300px; */
-  /* padding-left: 10%;
-  margin-left: 10%; */
-  /* position: fixed;
-  word-wrap: break-word;
-} */ 
-
-/* .column2 {
-  margin-left: 35%;
-
-  padding: 50px;
-  padding-left: 150px;
-  padding-right: 400px;
-  font-size: 18px;
-  width: 1100px;
-} */
 
 .column1-body{
-  /* width: 10px;; */
   word-wrap: break-word;
 }
 
@@ -156,7 +120,6 @@ h2 {
 }
 
 .news-body{
-  /* font-style: italic; */
   font-size: 18px;
 }
 
@@ -180,22 +143,15 @@ h2 {
 
 
 .news-li {
-  /* display: inline; */
   font-size: 16px;
   list-style: none inside;
   margin-top: 20px;
-  /* list-style: line; */
 }
 
 .name {font-size: 50px; margin-bottom: 20px; align-self: center;}
 
 
 @media (max-width: 1385px) {
-
-
-
-
-
   .column1 {
       width: 100%;
       margin-left: 0px;
